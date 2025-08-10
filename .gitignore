@@ -1,1 +1,15 @@
-/target/
+cat > .gitignore <<'EOF'
+cat > .gitignore <<'EOF'
+# Ignore OS files
+.DS_Store
+
+# Ignore build outputs
+target/
+out/
+
+# Ignore test reports
+test-output/
+
+# Ignore driver executables
+chromedriver*
+
